@@ -25,6 +25,8 @@
  */
 package com.markuspage.android.atimetracker;
 
+import com.optimizely.Optimizely;
+
 import static com.markuspage.android.atimetracker.DBHelper.END;
 import static com.markuspage.android.atimetracker.DBHelper.NAME;
 import static com.markuspage.android.atimetracker.DBHelper.RANGES_TABLE;
@@ -222,6 +224,8 @@ public class Tasks extends ListActivity {
         }
         vibrateAgent = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         vibrateClick = preferences.getBoolean(VIBRATE, true);
+
+        Optimizely.startOptimizely(R.raw.optimizely, getApplication());
     }
 
     @Override

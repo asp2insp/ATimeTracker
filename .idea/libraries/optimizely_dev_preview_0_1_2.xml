@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="optimizely-dev-preview-0.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.optimizely/optimizely-dev-preview/0.1.2/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.optimizely/optimizely-dev-preview/0.1.2/libs/javax.annotation-3.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.optimizely/optimizely-dev-preview/0.1.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
